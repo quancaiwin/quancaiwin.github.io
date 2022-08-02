@@ -4,6 +4,11 @@ jobs:
   DEPLOY:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "install all dependency"
-      - run: npm install
+       - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
+      - run: npm ci
       - run: npm run deploy
