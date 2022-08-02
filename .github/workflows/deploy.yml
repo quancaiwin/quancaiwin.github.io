@@ -6,6 +6,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
+      - name: Setup node 12
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
       - uses: redkubes/docusaurus-deploy-action@v1
         with:
           source-folder: "/home/runner/work/quancaiwin/quancaiwin"
