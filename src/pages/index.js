@@ -43,7 +43,7 @@ export default function Home() {
   return (
     <Layout
       title={`Trang chủ`}
-      description="Description will go into a meta tag in <head />">
+      description="Chào mừng mọi người đến với... trang chủ của Quán Cài Win?">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
