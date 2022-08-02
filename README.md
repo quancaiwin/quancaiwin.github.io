@@ -1,4 +1,4 @@
-# Quán Cài Windows
+# Quán Cài Win
 
 Trang web này sẽ chứa tất cả mọi các kiến thức cơ bản để có thể cài hoàn chỉnh Windows trên máy tính.
 
