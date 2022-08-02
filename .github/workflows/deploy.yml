@@ -4,6 +4,6 @@ jobs:
   DEPLOY:
     runs-on: ubuntu-latest
     steps:
-      - name: install all dependency
+      - run: echo "install all dependency"
       - run: npm install
       - run: npm run deploy
