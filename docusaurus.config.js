@@ -29,7 +29,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/quancaiwin/quancaiwin/tree/code',
+            'https://github.com/quancaiwin/quancaiwin.github.io/tree/code',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -61,7 +61,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/quancaiwin/quancaiwin',
+            href: 'https://github.com/quancaiwin/quancaiwin.github.io',
             label: 'GitHub',
             position: 'right',
           },
