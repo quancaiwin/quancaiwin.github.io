@@ -1,15 +1,14 @@
-name: Deploy to gh-pages branch :)
+name: deploy gh page
 on: [push]
+
 jobs:
-  DEPLOY:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-       - uses: actions/checkout@v2
-         with:
-          persist-credentials: false
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@master
+      - uses: redkubes/docusaurus-deploy-action@v1
         with:
-          node-version: 16.x
-      - run: git config --global url."https://${{ secrets.PAT }}@github.com/".insteadOf ssh://git@github.com/
-      - run: npm ci
-      - run: npm run deploy
+          source-folder:
+          git-user: $SOME_USERNAME
+          git-password: ${{ secrets.GITHUB_TOKEN }}
+          deployment-branch: gh-pages
