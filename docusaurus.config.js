@@ -34,15 +34,6 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/quancaiwin/quancaiwin/tree/code',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/quancaiwin/quancaiwin/tree/code',
         },
@@ -69,7 +60,7 @@ const config = {
             position: 'left',
             label: 'Học cài Windows từ A-Z',
           },
-          { to: '/blog', label: 'Tài nguyên hiện có', position: 'left' },
+          { to: '/resources', label: 'Tài nguyên hiện có', position: 'left' },
           {
             href: 'https://www.youtube.com/channel/UCgHyAVPzczuOs-M5tdRhKLg',
             label: 'YouTube',
@@ -84,47 +75,6 @@ const config = {
       },
       footer: {
         style: 'dark',
-        // links: [
-        //   {
-        //     title: 'Docs',
-        //     items: [
-        //       {
-        //         label: 'Tutorial',
-        //         to: '/docs/intro',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'Community',
-        //     items: [
-        //       {
-        //         label: 'Stack Overflow',
-        //         href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-        //       },
-        //       {
-        //         label: 'Discord',
-        //         href: 'https://discordapp.com/invite/docusaurus',
-        //       },
-        //       {
-        //         label: 'Twitter',
-        //         href: 'https://twitter.com/docusaurus',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'More',
-        //     items: [
-        //       {
-        //         label: 'Blog',
-        //         to: '/blog',
-        //       },
-        //       {
-        //         label: 'GitHub',
-        //         href: 'https://github.com/facebook/docusaurus',
-        //       },
-        //     ],
-        //   },
-        // ],
         copyright: `© ${new Date().getFullYear()} Quán Cài Win by team QCW, tất cả những người đóng góp và cả Bạn!. Built with Docusaurus.`,
       },
       prism: {
@@ -132,6 +82,7 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+
 };
 
 module.exports = config;
