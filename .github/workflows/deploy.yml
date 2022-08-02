@@ -1,0 +1,9 @@
+name: Deploy to gh-pages branch :)
+on: [push]
+jobs:
+  DEPLOY:
+    runs-on: ubuntu-latest
+    steps:
+      - name: install all dependency
+      - run: npm install
+      - run: npm run deploy
