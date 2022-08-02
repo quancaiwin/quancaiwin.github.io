@@ -5,10 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
        - uses: actions/checkout@v2
-        with:
+         with:
           persist-credentials: false
       - uses: actions/setup-node@v1
         with:
           node-version: 16.x
+      - run: git config --global url."https://${{ secrets.PAT }}@github.com/".insteadOf ssh://git@github.com/
       - run: npm ci
       - run: npm run deploy
