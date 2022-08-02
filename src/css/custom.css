@@ -66,3 +66,7 @@ body {
   background-color: var(--scroll-thumb-active);
   background-clip: content-box
 }
+
+.navbar-sidebar, .navbar-sidebar__backdrop {
+  height: 100vh;
+}

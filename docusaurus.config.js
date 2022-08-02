@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/icons.png',
   organizationName: 'quancaiwin',
   projectName: 'quancaiwin',
   deploymentBranch: 'gh-pages',
@@ -45,7 +45,7 @@ const config = {
         title: 'Quán Cài Win',
         logo: {
           alt: 'Quán Cài Win',
-          src: 'img/logo.svg',
+          src: 'img/icons.png',
         },
         items: [
           {

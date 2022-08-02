@@ -20,6 +20,10 @@ function HomepageHeader() {
       }
     >
       <div className="container">
+        <img src={require('@site/static/img/icons.png').default} style={{
+          width: "200px",
+          marginBottom: "0.5rem"
+        }} />
         <h1 className="hero__title" style={{ color: "#fff" }}>{siteConfig.title}</h1>
         <p className="hero__subtitle" style={{ color: "#fff" }}> {siteConfig.tagline}</p>
         <div className={styles.buttons}>
