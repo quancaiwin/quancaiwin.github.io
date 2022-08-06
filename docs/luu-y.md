@@ -3,7 +3,7 @@ sidebar_position: 8
 ---
 
 # Lưu ý
-- Hiện tại chúng mình sẽ hướng dẫn cài Windows theo chuẩn LEGACY trước nên những bạn muốn cài theo chuẩn UEFI thì hẫy kiên nhẫn chờ đợi chúng mình nhé.
+- Hiện tại chúng mình sẽ hướng dẫn cài Windows theo chuẩn LEGACY trước nên những bạn muốn cài theo chuẩn UEFI thì hãy kiên nhẫn chờ đợi chúng mình nhé.
 - Chúng mình làm đến từ cái lương tâm của bọn mình và những KIẾN THỨC và từ những KINH NGHIỆM mà mình có được nên có sai, thiếu sót hoặc không đúng chỗ nào mong các bạn phản hồi về cho chúng mình nhé, mỗi lời phản hồi của các bạn sẽ là những kiến thức mới mà mình được tiếp thu. và học hỏi được từ nhũng lời phản hồi đầy chân thành của các bạn.
 - Các bạn có thể liên hệ với mính qua địa chỉ email mình để bên dưới mình sẽ cố gắng sắp xếp trả lời từ các bạn.
 - Các bạn có thể liên hệ với mình qua địa chỉ email là **quancaiwin@gmail.com**  nhé
