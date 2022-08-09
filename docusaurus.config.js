@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Quán Cài Win',
   tagline: 'Khóa học cài Windows dành cho tất cả mọi người. Không rành về máy tính cùng có thể làm!',
-  url: 'https://quancaiwin.github.io',
+  url: 'https://quancaiwin.top',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
