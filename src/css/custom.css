@@ -18,12 +18,12 @@
   --ifm-navbar-background-color: #ffffffc5;
   --scroll-thumb: rgba(0, 0, 0, 0.3);
   --scroll-thumb-active: rgba(0, 0, 0, 0.2);
-	--ifm-menu-link-padding-horizontal: 1rem;
+  --ifm-menu-link-padding-horizontal: 1rem;
   --ifm-menu-link-padding-vertical: 0.75rem;
-	--ifm-navbar-height: none;
-	--ifm-global-radius: 15px;
-	--ifm-card-border-radius: calc(var(--ifm-global-radius) * 1.5);
-	--ifm-transition-fast: 250ms;
+  --ifm-navbar-height: none;
+  --ifm-global-radius: 15px;
+  --ifm-card-border-radius: calc(var(--ifm-global-radius) * 1.5);
+  --ifm-transition-fast: 250ms;
   --ifm-transition-slow: 400ms;
   --ifm-transition-timing-default: cubic-bezier(.33, .75, .33, 1);
 }
@@ -89,5 +89,5 @@ header.hero.hero--primary.heroBanner_qdFl {
 }
 
 .menu__caret:before, .menu__link--sublist-caret:after, ul.menu__list {
-	transition: var(--ifm-transition-fast) var(--ifm-transition-timing-default) !important
+  transition: var(--ifm-transition-fast) var(--ifm-transition-timing-default) !important
 }
