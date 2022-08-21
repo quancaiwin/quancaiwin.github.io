@@ -40,8 +40,8 @@
 }
 
 .navbar {
-  backdrop-filter: blur(50px);
-  -webkit-backdrop-filter: blur(50px);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 ::-webkit-scrollbar {
