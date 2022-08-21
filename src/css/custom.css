@@ -79,7 +79,7 @@ header.hero.hero--primary.heroBanner_qdFl {
   background-attachment: fixed
 }
 
-.menu__caret:before, .menu__link--sublist-caret:after, ul.menu__list {
+.menu__caret:before, .menu__link--sublist-caret:after, ul.menu__list, .tocCollapsibleContent_vkbj {
   transition: var(--ifm-transition-fast) var(--ifm-transition-timing-default) !important
 }
 
