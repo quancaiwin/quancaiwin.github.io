@@ -22,7 +22,7 @@
   --ifm-menu-link-padding-vertical: 0.75rem;
   --ifm-navbar-height: none;
   --ifm-global-radius: 15px;
-	--ifm-card-border-radius: calc(var(--ifm-global-radius) * 1.5)
+  --ifm-card-border-radius: calc(var(--ifm-global-radius) * 1.5)
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
