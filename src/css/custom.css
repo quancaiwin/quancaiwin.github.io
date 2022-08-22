@@ -109,6 +109,6 @@ button.clean-btn.menu__caret:hover {
   background: none
 }
 
-.menu__list-item:not(:first-child) {
+.menu__list-item:not(:first-child), .menu__list .menu__list {
   margin-top: 6.5px
 }
