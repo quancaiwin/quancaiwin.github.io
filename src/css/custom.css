@@ -53,7 +53,8 @@ body {
   background-color: var(--scroll-thumb);
   border-radius: 10px;
   background-clip: content-box;
-  border: 5px solid transparent
+  border: 5px solid transparent;
+  transition: .2s
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -71,7 +72,7 @@ body {
   transition-timing-function: var(--ifm-transition-timing-default)
 }
 
-.menu__caret, .menu__link, .menu__list-item-collapsible {
+.menu__caret, .menu__link, .menu__list-item-collapsible, .navbar-sidebar__back {
   border-radius: var(--ifm-global-radius)
 }
 
@@ -85,4 +86,21 @@ header.hero.hero--primary.heroBanner_qdFl {
 
 .navbar-sidebar__items {
   transition: 333ms cubic-bezier(.33, .75, 0, 1)
+}
+
+.menu_SIkG {
+  padding: .75rem .75rem .75rem .75rem;
+  scrollbar-gutter: none
+}
+
+.navbar-sidebar__item {
+  padding: 13px 0 13px 13px;
+  scrollbar-gutter: stable
+}
+
+.navbar-sidebar__back {
+  scrollbar-gutter: stable;
+  padding: var(--ifm-menu-link-padding-vertical) var(--ifm-menu-link-padding-horizontal);
+  margin: 6.5px 0 6.5px 0;
+  width: 100%
 }
