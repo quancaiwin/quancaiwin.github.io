@@ -89,8 +89,8 @@ header.hero.hero--primary.heroBanner_qdFl {
 }
 
 .menu_SIkG {
-  padding: .75rem .75rem .75rem .75rem;
-  scrollbar-gutter: none
+  padding: .75rem;
+  scrollbar-gutter: unset
 }
 
 .navbar-sidebar__item {
