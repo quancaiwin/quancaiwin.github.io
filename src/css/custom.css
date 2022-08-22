@@ -106,5 +106,9 @@ header.hero.hero--primary.heroBanner_qdFl {
 }
 
 button.clean-btn.menu__caret:hover {
-  background: none;
+  background: none
+}
+
+.menu__list-item:not(:first-child) {
+  margin-top: 6.5px
 }
