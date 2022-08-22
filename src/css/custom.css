@@ -53,8 +53,7 @@ body {
   background-color: var(--scroll-thumb);
   border-radius: 10px;
   background-clip: content-box;
-  border: 5px solid transparent;
-  transition: .2s
+  border: 5px solid transparent
 }
 
 ::-webkit-scrollbar-thumb:hover {
