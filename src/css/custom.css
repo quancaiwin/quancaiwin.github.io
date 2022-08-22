@@ -104,3 +104,7 @@ header.hero.hero--primary.heroBanner_qdFl {
   margin: 6.5px 0 6.5px 0;
   width: 100%
 }
+
+button.clean-btn.menu__caret:hover {
+  background: none;
+}
