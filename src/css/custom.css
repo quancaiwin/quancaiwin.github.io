@@ -13,7 +13,7 @@
     --scroll-thumb-active: rgba(0, 0, 0, 0.2);
     --ifm-menu-link-padding-horizontal: 1rem;
     --ifm-menu-link-padding-vertical: 0.75rem;
-	--ifm-background-color: var(--ifm-color-content-inverse);
+    --ifm-background-color: var(--ifm-color-content-inverse);
     --ifm-navbar-height: none;
     --ifm-global-radius: 15px;
     --ifm-card-border-radius: calc(var(--ifm-global-radius) * 1.5);
@@ -32,7 +32,7 @@
     --ifm-color-primary-lighter: #32cdd8;
     --ifm-color-primary-lightest: #4fdddd;
     --ifm-background-color: #131313 !important;
-	--ifm-background-surface-color: #181818 !important;
+    --ifm-background-surface-color: #181818 !important;
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
     --ifm-navbar-background-color: #161616a6;
     --scroll-thumb: rgba(255, 255, 255, 0.3);
@@ -130,5 +130,6 @@ button.clean-btn.menu__caret:hover {
 
 .cardContainer_fWXF {
     border: none;
-    box-shadow: var(--ifm-card-box-shadow)
+    box-shadow: var(--ifm-card-box-shadow);
+    background-image: linear-gradient(145deg, #161616, #1a1a1a)
 }
