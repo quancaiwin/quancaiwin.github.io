@@ -1,113 +1,134 @@
 :root {
-  --ifm-color-primary: #2e7b85;
-  --ifm-color-primary-dark: #297378;
-  --ifm-color-primary-darker: #27716b;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #339282;
-  --ifm-color-primary-lighter: #35998c;
-  --ifm-color-primary-lightest: #3cad94;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --ifm-navbar-background-color: #ffffffc5;
-  --scroll-thumb: rgba(0, 0, 0, 0.3);
-  --scroll-thumb-active: rgba(0, 0, 0, 0.2);
-  --ifm-menu-link-padding-horizontal: 1rem;
-  --ifm-menu-link-padding-vertical: 0.75rem;
-  --ifm-navbar-height: none;
-  --ifm-global-radius: 15px;
-  --ifm-card-border-radius: calc(var(--ifm-global-radius) * 1.5);
-  --ifm-transition-fast: 250ms;
-  --ifm-transition-slow: 400ms;
-  --ifm-transition-timing-default: cubic-bezier(.33, .75, .33, 1)
+    --ifm-color-primary: #2e7b85;
+    --ifm-color-primary-dark: #297378;
+    --ifm-color-primary-darker: #27716b;
+    --ifm-color-primary-darkest: #205d3b;
+    --ifm-color-primary-light: #339282;
+    --ifm-color-primary-lighter: #35998c;
+    --ifm-color-primary-lightest: #3cad94;
+    --ifm-code-font-size: 95%;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+    --ifm-navbar-background-color: #ffffffa6;
+    --scroll-thumb: rgba(0, 0, 0, 0.3);
+    --scroll-thumb-active: rgba(0, 0, 0, 0.2);
+    --ifm-menu-link-padding-horizontal: 1rem;
+    --ifm-menu-link-padding-vertical: 0.75rem;
+	--ifm-background-color: var(--ifm-color-content-inverse);
+    --ifm-navbar-height: none;
+    --ifm-global-radius: 15px;
+    --ifm-card-border-radius: calc(var(--ifm-global-radius) * 1.5);
+    --ifm-transition-fast: 250ms;
+    --ifm-transition-slow: 400ms;
+    --ifm-transition-timing-default: cubic-bezier(.33, .75, .33, 1);
+    --ifm-card-box-shadow: 20px 20px 40px #c9c9c9, -20px -20px 40px #ffffff;
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #25b8c2;
-  --ifm-color-primary-dark: #21aaaf;
-  --ifm-color-primary-darker: #1fa1a5;
-  --ifm-color-primary-darkest: #1a8188;
-  --ifm-color-primary-light: #29c1d5;
-  --ifm-color-primary-lighter: #32cdd8;
-  --ifm-color-primary-lightest: #4fdddd;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --ifm-navbar-background-color: #242526c5;
-  --scroll-thumb: rgba(255, 255, 255, 0.3);
-  --scroll-thumb-active: rgba(255, 255, 255, 0.2)
+    --ifm-color-primary: #25b8c2;
+    --ifm-color-primary-dark: #21aaaf;
+    --ifm-color-primary-darker: #1fa1a5;
+    --ifm-color-primary-darkest: #1a8188;
+    --ifm-color-primary-light: #29c1d5;
+    --ifm-color-primary-lighter: #32cdd8;
+    --ifm-color-primary-lightest: #4fdddd;
+    --ifm-background-color: #131313 !important;
+	--ifm-background-surface-color: #181818 !important;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+    --ifm-navbar-background-color: #161616a6;
+    --scroll-thumb: rgba(255, 255, 255, 0.3);
+    --scroll-thumb-active: rgba(255, 255, 255, 0.2);
+    --ifm-card-box-shadow: none
 }
 
-.navbar, .navbar-sidebar, .navbar-sidebar__backdrop {
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px)
+.navbar {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px)
 }
 
 ::-webkit-scrollbar {
-  width: 13px;
-  background-color: transparent
+    width: 13px;
+    background-color: transparent
 }
 
 body {
-  overflow-y: overlay !important
+    overflow-y: overlay !important
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--scroll-thumb);
-  border-radius: 10px;
-  background-clip: content-box;
-  border: 5px solid transparent
+    background-color: var(--scroll-thumb);
+    border-radius: 10px;
+    background-clip: content-box;
+    border: 5px solid transparent
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-clip: content-box;
-  border: 3px solid transparent
+    background-clip: content-box;
+    border: 3px solid transparent
 }
 
 ::-webkit-scrollbar-thumb:active {
-  background-color: var(--scroll-thumb-active);
-  background-clip: content-box
+    background-color: var(--scroll-thumb-active);
+    background-clip: content-box
 }
 
 .navbar-sidebar, .navbar-sidebar__backdrop {
-  height: 100vh;
-  transition-timing-function: var(--ifm-transition-timing-default)
+    height: 100vh;
+    transition-timing-function: var(--ifm-transition-timing-default)
 }
 
 .menu__caret, .menu__link, .menu__list-item-collapsible, .navbar-sidebar__back {
-  border-radius: var(--ifm-global-radius)
+    border-radius: var(--ifm-global-radius)
 }
 
 header.hero.hero--primary.heroBanner_qdFl {
-  background-attachment: fixed
+    background-attachment: fixed
 }
 
 .menu__caret:before, .menu__link--sublist-caret:after, ul.menu__list, .tocCollapsibleContent_vkbj {
-  transition: var(--ifm-transition-fast) var(--ifm-transition-timing-default) !important
+    transition: var(--ifm-transition-fast) var(--ifm-transition-timing-default) !important
 }
 
 .navbar-sidebar__items {
-  transition: 333ms cubic-bezier(.33, .75, 0, 1)
+    transition: 333ms cubic-bezier(.33, .75, 0, 1)
 }
 
 .menu_SIkG {
-  padding: .75rem;
-  scrollbar-gutter: unset
+    padding: .75rem;
+    scrollbar-gutter: unset
 }
 
 .navbar-sidebar__item {
-  padding: 13px 0 13px 13px;
-  scrollbar-gutter: stable
+    padding: 13px 0 13px 13px;
+    scrollbar-gutter: stable
 }
 
 .navbar-sidebar__back {
-  scrollbar-gutter: stable;
-  padding: var(--ifm-menu-link-padding-vertical) var(--ifm-menu-link-padding-horizontal);
-  margin: 6.5px 0 6.5px 0;
-  width: 100%
+    scrollbar-gutter: stable;
+    padding: var(--ifm-menu-link-padding-vertical) var(--ifm-menu-link-padding-horizontal);
+    margin: 6.5px 0 6.5px 0;
+    width: 100%
 }
 
 button.clean-btn.menu__caret:hover {
-  background: none
+    background: none
 }
 
 .menu__list-item:not(:first-child), .menu__list .menu__list {
-  margin-top: 6.5px
+    margin-top: 6.5px
+}
+
+.navbar-sidebar {
+    background-color: var(--ifm-background-color);
+}
+
+.footer {
+    background-image: url(https://files.catbox.moe/4fda9e.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed
+}
+
+.cardContainer_fWXF {
+    border: none;
+    box-shadow: var(--ifm-card-box-shadow)
 }
