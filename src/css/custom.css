@@ -19,27 +19,27 @@
     --ifm-card-border-radius: calc(var(--ifm-global-radius) * 1.5);
     --ifm-transition-fast: 250ms;
     --ifm-transition-slow: 400ms;
-    --ifm-transition-timing-default: cubic-bezier(.33, .75, .33, 1);
+    --ifm-transition-timing-default: cubic-bezier(0, .75, .33, 1);
     --ifm-card-box-shadow: 20px 20px 40px #c9c9c9, -20px -20px 40px #ffffff;
     --ifm-card-box-background: linear-gradient(145deg, #f0f0f0, #ffffff)
 }
 
 [data-theme='dark'] {
-    --ifm-color-primary: #25b8c2;
+    --ifm-color-primary: #27c3ce;
     --ifm-color-primary-dark: #21aaaf;
     --ifm-color-primary-darker: #1fa1a5;
     --ifm-color-primary-darkest: #1a8188;
     --ifm-color-primary-light: #29c1d5;
     --ifm-color-primary-lighter: #32cdd8;
     --ifm-color-primary-lightest: #4fdddd;
-    --ifm-background-color: #131313 !important;
+    --ifm-background-color: #151515 !important;
 	--ifm-background-surface-color: #181818 !important;
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
     --ifm-navbar-background-color: #161616a6;
     --scroll-thumb: rgba(255, 255, 255, 0.3);
     --scroll-thumb-active: rgba(255, 255, 255, 0.2);
     --ifm-card-box-shadow: none;
-    --ifm-card-box-background: linear-gradient(145deg, #161616, #1a1a1a)
+    --ifm-card-box-background: linear-gradient(145deg, #131313, #181818)
 }
 
 .navbar {
@@ -91,7 +91,7 @@ header.hero.hero--primary.heroBanner_qdFl {
 }
 
 .navbar-sidebar__items {
-    transition: .3s cubic-bezier(.33, .75, 0, 1)
+    transition: .3s cubic-bezier(.25, .75, 0, 1)
 }
 
 .menu_SIkG {
