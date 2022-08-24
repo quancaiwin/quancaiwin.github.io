@@ -42,7 +42,7 @@
     --ifm-navbar-background-color: #181818a6;
     --scroll-thumb: rgba(255, 255, 255, 0.3);
     --scroll-thumb-active: rgba(255, 255, 255, 0.2);
-    --ifm-card-box-shadow: none;
+    --ifm-card-box-shadow: 2px 2px 4px rgba(0,0,0,0.05);
     --ifm-card-box-background: linear-gradient(145deg, #121212, #181818);
 	--ifm-footer-background: linear-gradient(145deg, #161616, #181818);
 	--ifm-footer-shadow: 0 0 30px rgba(0,0,0,.2)
