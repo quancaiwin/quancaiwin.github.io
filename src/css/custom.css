@@ -20,10 +20,11 @@
     --ifm-card-border-radius: calc(var(--ifm-global-radius) * 1.5);
     --ifm-transition-fast: 250ms;
     --ifm-transition-slow: 400ms;
-    --ifm-background-surface-color: #f3f4f5;
+    --ifm-background-surface-color: #fafafa;
     --ifm-transition-timing-default: cubic-bezier(.25, .75, .33, 1);
     --ifm-card-box-shadow: 20px 20px 40px #c9c9c9, -20px -20px 40px #ffffff;
-    --ifm-card-box-background: linear-gradient(180deg, #f0f0f0, #ffffff)
+    --ifm-card-box-background: linear-gradient(180deg, #f0f0f0, #ffffff);
+	--ifm-footer-shadow: inset 0 0 20px rgba(0,0,0,.1)
 }
 
 [data-theme='dark'] {
@@ -43,7 +44,8 @@
     --scroll-thumb-active: rgba(255, 255, 255, 0.2);
     --ifm-card-box-shadow: none;
     --ifm-card-box-background: linear-gradient(145deg, #131313, #181818);
-	--ifm-footer-background: linear-gradient(145deg, #161616, #181818)
+	--ifm-footer-background: linear-gradient(145deg, #161616, #181818);
+	--ifm-footer-shadow: 0 0 30px rgba(0,0,0,.2)
 }
 
 .navbar {
@@ -131,7 +133,7 @@ button.clean-btn.menu__caret:hover {
     background-color: var(--ifm-background-surface-color);
     color: var(--ifm-color-content);
 	background-image: var(--ifm-footer-background);
-	box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.03)
+	box-shadow: var(--ifm-footer-shadow)
 }
 
 .cardContainer_fWXF {
