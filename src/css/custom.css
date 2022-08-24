@@ -13,16 +13,17 @@
     --scroll-thumb-active: rgba(0, 0, 0, 0.2);
     --ifm-menu-link-padding-horizontal: 1rem;
     --ifm-menu-link-padding-vertical: 0.75rem;
-    --ifm-background-color: var(--ifm-color-content-inverse);
+	--ifm-background-color: var(--ifm-color-content-inverse);
     --ifm-navbar-height: none;
     --ifm-global-radius: 15px;
+	--ifm-toc-border-color: rgba(0, 0, 0, 0.1);
     --ifm-card-border-radius: calc(var(--ifm-global-radius) * 1.5);
     --ifm-transition-fast: 250ms;
     --ifm-transition-slow: 400ms;
     --ifm-background-surface-color: #f3f4f5;
     --ifm-transition-timing-default: cubic-bezier(.25, .75, .33, 1);
     --ifm-card-box-shadow: 20px 20px 40px #c9c9c9, -20px -20px 40px #ffffff;
-    --ifm-card-box-background: linear-gradient(145deg, #f0f0f0, #ffffff)
+    --ifm-card-box-background: linear-gradient(180deg, #f0f0f0, #ffffff)
 }
 
 [data-theme='dark'] {
@@ -33,14 +34,16 @@
     --ifm-color-primary-light: #29c1d5;
     --ifm-color-primary-lighter: #32cdd8;
     --ifm-color-primary-lightest: #4fdddd;
+	--ifm-toc-border-color: rgba(255, 255, 255, 0.1);
     --ifm-background-color: #151515 !important;
-    --ifm-background-surface-color: #181818 !important;
+	--ifm-background-surface-color: #181818 !important;
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
     --ifm-navbar-background-color: #181818a6;
     --scroll-thumb: rgba(255, 255, 255, 0.3);
     --scroll-thumb-active: rgba(255, 255, 255, 0.2);
     --ifm-card-box-shadow: none;
-    --ifm-card-box-background: linear-gradient(145deg, #131313, #181818)
+    --ifm-card-box-background: linear-gradient(145deg, #131313, #181818);
+	--ifm-footer-background: linear-gradient(145deg, #161616, #181818)
 }
 
 .navbar {
@@ -126,7 +129,9 @@ button.clean-btn.menu__caret:hover {
 
 .footer {
     background-color: var(--ifm-background-surface-color);
-    color: var(--ifm-color-content)
+    color: var(--ifm-color-content);
+	background-image: var(--ifm-footer-background);
+	box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.03)
 }
 
 .cardContainer_fWXF {
