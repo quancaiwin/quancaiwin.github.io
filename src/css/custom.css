@@ -19,7 +19,8 @@
     --ifm-card-border-radius: calc(var(--ifm-global-radius) * 1.5);
     --ifm-transition-fast: 250ms;
     --ifm-transition-slow: 400ms;
-    --ifm-transition-timing-default: cubic-bezier(0, .75, .33, 1);
+    --ifm-background-surface-color: #f3f4f5;
+    --ifm-transition-timing-default: cubic-bezier(.25, .75, .33, 1);
     --ifm-card-box-shadow: 20px 20px 40px #c9c9c9, -20px -20px 40px #ffffff;
     --ifm-card-box-background: linear-gradient(145deg, #f0f0f0, #ffffff)
 }
@@ -35,7 +36,7 @@
     --ifm-background-color: #151515 !important;
 	--ifm-background-surface-color: #181818 !important;
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-    --ifm-navbar-background-color: #161616a6;
+    --ifm-navbar-background-color: #191919a6;
     --scroll-thumb: rgba(255, 255, 255, 0.3);
     --scroll-thumb-active: rgba(255, 255, 255, 0.2);
     --ifm-card-box-shadow: none;
@@ -124,10 +125,8 @@ button.clean-btn.menu__caret:hover {
 }
 
 .footer {
-    background-image: url(https://files.catbox.moe/4fda9e.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed
+    background-color: var(--ifm-background-surface-color);
+    color: var(--ifm-color-content)
 }
 
 .cardContainer_fWXF {
