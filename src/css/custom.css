@@ -23,7 +23,6 @@
     --ifm-background-surface-color: #fafafa;
     --ifm-transition-timing-default: cubic-bezier(.25, .75, .33, 1);
     --ifm-card-box-shadow: 20px 20px 40px #c9c9c9, -20px -20px 40px #ffffff;
-    --ifm-card-box-background: linear-gradient(180deg, #f0f0f0, #ffffff);
 	--ifm-footer-shadow: inset 0 0 30px rgba(0,0,0,.1)
 }
 
@@ -44,7 +43,6 @@
     --scroll-thumb-active: rgba(255, 255, 255, 0.2);
     --ifm-card-box-shadow: 2px 2px 4px rgba(0,0,0,0.05);
     --ifm-card-box-background: linear-gradient(145deg, #121212, #181818);
-	--ifm-footer-background: linear-gradient(145deg, #161616, #181818);
 	--ifm-footer-shadow: 0 0 30px rgba(0,0,0,.2)
 }
 
@@ -92,7 +90,7 @@ header.hero.hero--primary.heroBanner_qdFl {
     background-attachment: fixed
 }
 
-.menu__caret:before, .menu__link--sublist-caret:after, ul.menu__list, .tocCollapsibleContent_vkbj {
+.menu__caret:before, .menu__link--sublist-caret:after, ul.menu__list, .tocCollapsibleContent_vkbj, html, .footer, .navbar-sidebar {
     transition: var(--ifm-transition-fast) var(--ifm-transition-timing-default) !important
 }
 
@@ -132,12 +130,12 @@ button.clean-btn.menu__caret:hover {
 .footer {
     background-color: var(--ifm-background-surface-color);
     color: var(--ifm-color-content);
-	background-image: var(--ifm-footer-background);
 	box-shadow: var(--ifm-footer-shadow)
 }
 
 .cardContainer_fWXF {
     border: none;
     box-shadow: var(--ifm-card-box-shadow);
-    background-image: var(--ifm-card-box-background)
+    background-image: var(--ifm-card-box-background);
+	transition: .1s
 }
