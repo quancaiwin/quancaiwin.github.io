@@ -36,14 +36,14 @@
     --ifm-color-primary-lighter: #32cdd8;
     --ifm-color-primary-lightest: #4fdddd;
 	--ifm-toc-border-color: rgba(255, 255, 255, 0.1);
-    --ifm-background-color: #151515 !important;
+    --ifm-background-color: #161616 !important;
 	--ifm-background-surface-color: #181818 !important;
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
     --ifm-navbar-background-color: #181818a6;
     --scroll-thumb: rgba(255, 255, 255, 0.3);
     --scroll-thumb-active: rgba(255, 255, 255, 0.2);
-    --ifm-card-box-shadow: 2px 2px 4px rgba(0,0,0,0.02);
-    --ifm-card-box-background: linear-gradient(145deg, rgba(0,0,0,.25), transparent);
+    --ifm-card-box-shadow: 5px 5px 10px rgba(0,0,0,.2);
+    --ifm-card-box-background: linear-gradient(145deg, rgba(0,0,0,.2), transparent);
 	--ifm-footer-shadow: 0 0 30px rgba(0,0,0,.2)
 }
 
