@@ -139,3 +139,7 @@ button.clean-btn.menu__caret:hover {
     box-shadow: var(--ifm-card-box-shadow);
     background-image: var(--ifm-card-box-background)
 }
+
+.toggle_vylO.colorModeToggle_DEke {
+	display: flex
+}
