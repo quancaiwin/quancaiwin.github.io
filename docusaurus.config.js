@@ -69,7 +69,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `© ${new Date().getFullYear()} Quán Cài Win by team QCW, tất cả những người đóng góp và cả Bạn!. Built with Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} Quán Cài Win by team QCW cùng tất cả những người đóng góp và cả Bạn!. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
