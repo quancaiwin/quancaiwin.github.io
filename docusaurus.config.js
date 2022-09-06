@@ -61,7 +61,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/quancaiwin/quancaiwin.github.io',
+            href: 'https://github.com/quancaiwin/quancaiwin.github.io/',
             label: 'GitHub',
             position: 'right',
           },
