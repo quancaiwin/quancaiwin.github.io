@@ -55,10 +55,9 @@ const config = {
             label: 'Học cài Windows từ A-Z',
           },
           {
-            type: 'doc',
-            docId: 'index',
-            position: 'left',
-            label: 'Học Hackintosh từ A-Z',
+           to: "/hack",
+           label: 'Học Hackintosh từ A-Z',
+           position: 'left',
           },
           { to: '/resources', label: 'Tài nguyên hiện có', position: 'left' },
           {
