@@ -56,7 +56,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'index',
+            docId: 'index2',
             position: 'left',
             label: 'Học Hackintosh từ A-Z',
           },
