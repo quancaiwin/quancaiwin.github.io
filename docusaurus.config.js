@@ -54,11 +54,6 @@ const config = {
             position: 'left',
             label: 'Học cài Windows từ A-Z',
           },
-          {
-           to: "/hack",
-           label: 'Học Hackintosh từ A-Z',
-           position: 'left',
-          },
           { to: '/resources', label: 'Tài nguyên hiện có', position: 'left' },
           {
             href: 'https://www.youtube.com/channel/UCgHyAVPzczuOs-M5tdRhKLg',
